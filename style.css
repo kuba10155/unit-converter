@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+}
+
+.header-section {
+  align-items: center;
+  background: #6943FF;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  height: 25%;
+  justify-content: space-between;
+}
+
+#heading {
+  font-weight: bold;
+  margin: 30px 0;
+}
+
+#number {
+  background: #6943FF;
+  border: 1px solid #B295FF;
+  color: white;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 58px;
+  height: 85px;
+  line-height: 24px;
+  padding: 10px;
+  text-align: center;
+  width: 120px;
+}
+
+#convert-btn {
+  background: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  margin: 30px 0;
+  padding: 10px 30px;
+  width: 120px;
+}
+
+.bottom-section {
+  align-items: center;
+  background: #F4F4F4;
+  display: flex;
+  flex-direction: column;
+  height: 75%;
+  justify-content: space-around;
+}
+
+.unit-container {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
+  text-align: center;
+  width: 95%;
+}
+
+.unit-heading {
+  color: #5A537B;
+  font-family: 'Inter';
+  font-style: normal;
+  font-size: 20px;
+  font-weight: 600;
+  padding-top: 15px;
+}
+
+.unit-value {
+  color: #353535;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  padding-bottom: 15px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
